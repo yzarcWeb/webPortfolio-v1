@@ -1,0 +1,122 @@
+.skills-body-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-align: center;
+    justify-content:center;
+    gap: 50px;
+    width: 100dvw;
+}
+.tech-stack-container{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 35dvw;
+    border: 2px solid #F45FC1;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: #ffffff;
+}
+.tech-stack-container p{
+    color: white;
+}
+.tech-stack-pic{
+    height: 150px;
+}
+.technical-container{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 35dvw;
+    border: 2px solid #F45FC1;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
+.technical-skills{
+    list-style-type: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.technical-skills li{
+    margin-top: 20px;
+}
+.skills-footer-container{
+    color: #F45FC1;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 100dvw;
+}
+.skills-footer-container p{
+    text-align: center;
+    margin-top: 50px;
+}
+@media (max-width: 767px){
+    .skills-body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10%;
+    }
+    .tech-stack-container{
+        width: 80dvw;
+    }
+    .tech-stack-pic{
+        height: 100px;
+    }
+    .technical-container{
+        width: 80dvw;
+    }
+    .technical-skills{
+        font-size: 1.2rem;
+    }
+    .technical-skills li{
+        margin-top: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .skills-body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10%;
+    }
+    .tech-stack-container{
+        width: 80dvw;
+    }
+    .tech-stack-pic{
+        height: 110px;
+    }
+    .technical-container{
+        width: 80dvw;
+    }
+    .technical-skills{
+        font-size: 1.2rem;
+    }
+    .technical-skills li{
+        margin-top: 10px;
+    }
+}
