@@ -113,6 +113,8 @@ h2{
 .download{
     text-decoration: none;
     color: white;
+    text-align: center;
+    align-content: center;
 }
 .graph{
     font-size: 1rem;
