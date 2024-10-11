@@ -45,7 +45,16 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #F45FC1
+    color: #F45FC1;
+}
+.home:hover, .about:hover, .skills:hover, .projects:hover, .contact:hover{
+    color: #F45FC1;
+}
+.download-container:hover{
+    background-color: #ffffff;
+}
+.download:hover{
+    color: #F45FC1;
 }
 .body-container{
     display: grid;
@@ -234,7 +243,7 @@ h2{
         width: 50dvw;
     }
     .img-container{
-        margin-left: -5dvw;
+        margin-left: 4dvw;
     }
     img{
         height: 50dvh;
